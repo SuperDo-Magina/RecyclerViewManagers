@@ -17,7 +17,7 @@
 
 1.实现拖拽效果
 
-![](/Users/L/Desktop/drag.gif)
+![](./drag.gif)
 	
 	1.创建itemTouchHelper
 	val callback = ItemDragHelperCallback(adapter, list)
