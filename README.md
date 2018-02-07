@@ -17,17 +17,23 @@
 
 1.实现拖拽效果
 
-![](./drag.gif)
+![](./pics/drag.gif){:height="50%" width="50%"} ![](./pics/drag2.gif){:height="50%" width="50%"} 
 	
 	1.创建itemTouchHelper
 	val callback = ItemDragHelperCallback(adapter, list)
+	 // 设置只能垂直拖拽
+    callback.setDragFlags(ItemDragHelperCallback.DIRECTION_VERTICAL)
+    // 设置拖拽监听
+    callback.setDragListener()
 	val itemTouchHelper = ItemTouchHelper(callback)
 	
 	2.关联RecyclerView
    	itemTouchHelper.attachToRecyclerView(recyclerView)
     
 2.实现卡牌效果
-	 
+
+![](./pics/swipe.gif){:height="50%" width="50%"} 
+
 	val cardCallback = CardItemTouchHelperCallback(adapter, list)
 	val touchHelper = ItemTouchHelper(cardCallback)
     val manager = CardLayoutManager(recyclerView, touchHelper)
