@@ -1,6 +1,7 @@
 # RecyclerViewManagers
 
-##引用
+## 引用
+
 1.moven
 
       maven {
@@ -12,7 +13,7 @@
     compile 'com.github.SuperDo-Magina:RecyclerViewManagers:1.0.0'
     compile 'com.android.support:recyclerview-v7:xx.x.x'
     
-##使用
+## 使用
 
 1.实现拖拽效果
 	
