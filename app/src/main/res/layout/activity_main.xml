@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/Btn"
+        android:text="拖拽列表"/>
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/Btn"
+        android:text="拖拽列表2"/>
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/Btn"
+        android:text="卡牌列表"/>
+
+</LinearLayout>
