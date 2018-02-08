@@ -17,9 +17,8 @@
 
 1.实现拖拽效果
 
- <img src="./pics/drag.gif" width="50%" height="50%" />
- <img src="./pics/drag2.gif" width="50%" height="50%" />
-
+![](./pics/drag.gif)
+![](./pics/drag2.gif)
 	
 	1.创建itemTouchHelper
 	val callback = ItemDragHelperCallback(adapter, list)
@@ -34,7 +33,7 @@
     
 2.实现卡牌效果
 
-<img src="./pics/swipe.gif" width="50%" height="50%" />
+![](./pics/swipe.gif)
 
 	val cardCallback = CardItemTouchHelperCallback(adapter, list)
 	val touchHelper = ItemTouchHelper(cardCallback)
