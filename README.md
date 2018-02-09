@@ -40,3 +40,8 @@
     val manager = CardLayoutManager(recyclerView, touchHelper)
     recyclerView.layoutManager = manager
     touchHelper.attachToRecyclerView(recyclerView)
+
+## 已知问题
+
+    1.Error:error: resource android:attr/colorError not found.
+	 解决方案:compileSdkVersion 大于26
